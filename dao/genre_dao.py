@@ -1,9 +1,9 @@
-from model.genre import Genre
+from .model.genre import Genre
 
 
 class GenreDao:
 
-    def __int__(self, session):
+    def __init__(self, session):
         self.session = session
 
     def get_all(self):

@@ -1,4 +1,4 @@
-from flask_mobility import Mobility
+
 from flask import Flask
 from flask_restx import Api
 

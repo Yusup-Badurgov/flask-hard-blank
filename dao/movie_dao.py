@@ -1,8 +1,8 @@
-from model.movie import Movie
+from .model.movie import Movie
 
 
 class MovieDao:
-    def __int__(self, session):
+    def __init__(self, session):
         self.session = session
 
     def get_all(self):
